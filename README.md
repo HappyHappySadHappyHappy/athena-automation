@@ -20,6 +20,7 @@ Make sure you have the following installed on your machine:
 
    ```bash
    git clone https://github.com/yourusername/athena-automation-dashboard.git
+   ```
 
 
 
@@ -29,12 +30,11 @@ To configure the database connection, you need to create a `.env` file in the ro
 express project.
 
 Here's an example of how the `.env` file should look like:
-`
-DB_HOST=<db_url_here>\n
-DB_USER=<db_username>\n
-DB_PASSWORD=<db_password>\n
-DB_PORT=<db_port>\n
-DB_NAME=<db_name>`
+DB_HOST=<db_url_here>
+DB_USER=<db_username>
+DB_PASSWORD=<db_password>
+DB_PORT=<db_port>
+DB_NAME=<db_name>
 
 Once the `.env` file is configured, you need to create the required table(s) using the provided schema.
 
